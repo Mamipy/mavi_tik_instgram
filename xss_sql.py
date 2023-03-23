@@ -3,7 +3,7 @@ import requests
 # Proxy list
 with open('proxy.txt', 'r') as f:
     proxies = f.read().splitlines()
-url = 'https://cevhercraft.xyz'
+url = 'https://examplesite.com'
 
 # XSS payload listesi
 xss_payloads = [
